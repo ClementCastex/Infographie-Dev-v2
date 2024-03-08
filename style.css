@@ -1,0 +1,68 @@
+body {
+  background-image: url('/images/Fond-Infographie-nws.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.Top-graph,
+.Mid-graph,
+.Top-leg,
+.Top-titre {
+  display: flex;
+  width: 100%;
+}
+
+.Graphiques,
+.Legendes{
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  margin-left: 3rem;
+  text-align: center;
+}
+h1,
+h2{
+  text-align: center;
+  margin-left: -10rem;
+  font-family: 'Fugaz One', sans-serif;
+  font-size: 50px;
+}
+
+p ,
+.Bottom{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 25px;
+  font-family: ' Fira Sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.texte{
+  padding-left: 10rem;
+  padding-right: 10rem;
+  font-size: 25px;
+}
+#buttom,
+.Bottom {
+  align-items: center;
+  text-align: center;
+}
+
+/***********
+  Font
+************/
+
+@font-face {
+  font-family: 'Fugaz One';
+  src: url('font/FugazOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('font/FiraSans-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
